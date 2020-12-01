@@ -1,7 +1,7 @@
 //#region Canvas Initialization
 var canvas = document.querySelector('#canvas');
-canvas.width = 3840; //window.innerWidth;
-canvas.height = 1080; //window.innerHeight;
+canvas.width = window.innerWidth; //3840//window.innerWidth;
+canvas.height = window.innerHeight; //1080//window.innerHeight;
 var ctx = canvas.getContext('2d');
 //#endregion
 var Point = /** @class */ (function () {

@@ -1,7 +1,7 @@
 //#region Canvas Initialization
 const canvas:HTMLCanvasElement = document.querySelector('#canvas');
-canvas.width = 3840//window.innerWidth;
-canvas.height = 1080//window.innerHeight;
+canvas.width = window.innerWidth;//3840//window.innerWidth;
+canvas.height = window.innerHeight//1080//window.innerHeight;
 const ctx = canvas.getContext('2d');
 //#endregion
 
